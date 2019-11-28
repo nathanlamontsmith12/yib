@@ -1,6 +1,6 @@
 const { DataTypes } = require('sequelize'); 
 
-const RaptorCustomPackage = {
+const CustomerMachineStructure = {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -9,4 +9,4 @@ const RaptorCustomPackage = {
   },
 }; 
 
-module.exports = RaptorCustomPackage; 
+module.exports = CustomerMachineStructure; 
