@@ -21,7 +21,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // ROUTES 
-app.get('/', (req, res) => {
+app.get('/yib', (req, res) => {
   console.log("DATABASE INSTANCE:")
   console.log(db); 
   res.json({
