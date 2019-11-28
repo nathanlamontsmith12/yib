@@ -18,7 +18,7 @@ const RaptorPackageStructure = require("./models/RaptorPackage");
 
 // DEFINE MODELS 
 const modelOptions = {
-  underscore: true,
+  underscored: true,
   paranoid: false,
   timestamps: true
 };

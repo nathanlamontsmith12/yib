@@ -7,6 +7,12 @@ const MachineType = {
     allowNull: false,
     autoIncrement: true
   },
+  raptor_type: {
+    type: DataTypes.STRING
+  },
+  description: {
+    type: DataTypes.TEXT
+  }
 }; 
 
 module.exports = MachineType; 

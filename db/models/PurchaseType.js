@@ -7,6 +7,9 @@ const PurchaseType = {
     allowNull: false,
     autoIncrement: true
   },
+  name: {
+    type: DataTypes.STRING
+  }
 }; 
 
 module.exports = PurchaseType; 

@@ -7,6 +7,12 @@ const MachineStructure = {
     allowNull: false,
     autoIncrement: true
   },
+  name: {
+    type: DataTypes.STRING
+  },
+  model: {
+    type: DataTypes.STRING
+  }
 }; 
 
 module.exports = MachineStructure; 

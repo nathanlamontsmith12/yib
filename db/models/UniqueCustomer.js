@@ -7,6 +7,9 @@ const UniqueCustomer = {
     allowNull: false,
     autoIncrement: true
   },
+  comment: {
+    type: DataTypes.TEXT
+  }
 }; 
 
 module.exports = UniqueCustomer; 
